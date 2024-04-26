@@ -1,0 +1,20 @@
+Source: non-essential-tools
+Section: unknown
+Priority: optional
+Maintainer: tic La Senia <tic@ieslasenia.org>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/non-essential-tools
+#Vcs-Git: https://salsa.debian.org/debian/non-essential-tools.git
+
+Package: non-essential-tools
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
