@@ -8,9 +8,9 @@ echo " Soy un simple binario "
 
 echo " ********************* "
 
-echo " Mi Nivel es : ${SCRIPT_LEVEL}"
+echo " Mi Nivel es : ${SCRIPT_LEVEL_NAME}"
 
-if [ ${SCRIPT_LEVEL} = " * Binario PS " ]; then
+if [ ${SCRIPT_LEVEL} -eq 1 ]; then
 	
 	echo " * Soy un mero Script PS"
 	sleep 1
