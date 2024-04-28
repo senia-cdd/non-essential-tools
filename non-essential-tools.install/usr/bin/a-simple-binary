@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Source configuration values
+
+source /etc/senia/non-essential-tools.d/*.conf
+
+echo " Soy un simple binario "
+
+echo " ********************* "
+
+echo " Mi Nivel es : ${SCRIPT_LEVEL}"
+
+if [ ${SCRIPT_LEVEL} = " * Binario PS " ]; then
+	
+	echo " * Soy un mero Script PS"
+	sleep 1
+
+fi
+
+exit 0
