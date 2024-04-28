@@ -15,5 +15,5 @@ Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: but highly recommended
+ some tools and structures ready to be build

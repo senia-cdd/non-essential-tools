@@ -20,6 +20,7 @@ set -e
 
 case "$1" in
     configure)
+	    echo " * [ Configuring things ] : STUFF "
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
